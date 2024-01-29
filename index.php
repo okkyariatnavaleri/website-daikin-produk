@@ -24,7 +24,7 @@
             <div class="col-md-8 offset-md-2">
                 <form method="get" action="produk.php">
                     <div class="input-group input-group-lg my-5">
-                        <input type="text" class="form-control" placeholder="Tipe unit" aria-label="Recipient's username" aria-describedby="basic-addon2" name="produk" required>
+                        <input type="text" class="form-control" placeholder="Tipe unit" aria-label="Recipient's username" aria-describedby="basic-addon2" name="produk" autocomplete="off" required>
                         <button type="submit" class="btn btn-primary">Telusuri</button>
                     </div>
                 </form>
