@@ -5,10 +5,10 @@
     # Menyembunyikan ekstensi .php
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME}.php -f
-    RewriteRule ^([^/]+)/$ $1.php
+    RewriteRule ^([^/]+)/$ $1.php [L]
 
-    # Mengarahkan ke index.php
+    # Mengarahkan ke index.php jika file tidak ditemukan
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ adminpanel/index.php/$1 [L]
+    RewriteRule ^([^/]+)/?$ adminpanel/index.php/$1 [L]
 </IfModule>
