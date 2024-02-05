@@ -20,7 +20,7 @@
     </div>
 
     <!-- tentang kami -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5 d-flex">
         <div class="container text-center text-dark">
             <p class="fs-5 mt-3">
                 PT. Mellisa Lestari Sinergi telah
