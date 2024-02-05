@@ -132,13 +132,13 @@
   object-position: center;
 }
 
-.banner-tentang-kami {
+/* .banner-tentang-kami {
   height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../image/banner_tentang_kami.jpg');
   background-size: cover;
   background-position: center 45%;
   background-repeat: no-repeat;
-}
+} */
 
 .list-group-item {
   transition: transform 0.3s ease, background-color 0.3s ease;

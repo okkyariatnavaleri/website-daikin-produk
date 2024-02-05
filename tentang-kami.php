@@ -20,7 +20,7 @@
     </div>
 
     <!-- tentang kami -->
-    <div class="container-fluid py-5 d-flex align-items-center">
+    <div class="container-fluid py-5">
         <div class="container text-center text-dark">
             <p class="fs-5 mt-3">
                 PT. Mellisa Lestari Sinergi telah
@@ -29,7 +29,7 @@
                 untuk memasarkan semua produk
                 dari Daikin.
                 <br>
-                <img src="image/sertifikat_daikin.png" width="400px" alt="">
+                <img src="image/sertifikat_daikin.png" class="img-fluid" alt="">
             </p>
             <p class="fs-5 mt-3">
                 PT. Mellisa Lestari Sinergi merupakan Perusahaan yang bergerak di
@@ -48,7 +48,7 @@
                 <br><br>
                 Telepon: +62-822-6886-4800
             </p>
-                <br><br>
+            <br><br>
 
             <h3>Visi</h3>
             <p class="fs-5 mt-3">
