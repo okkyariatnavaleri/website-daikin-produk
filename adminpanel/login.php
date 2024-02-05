@@ -1,8 +1,3 @@
-<?php 
-    session_start();
-    require "../koneksi.php";
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,90 +8,67 @@
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 </head>
 
-<style>
-    .main{
-        height: 100vh;
-    }
-
-    .login-box{
-        width: 500px;
-        height: 400px;
-        box-sizing: border-box;
-        border-radius: 15px;
-    }
-
-    .logo-container {
-        margin-bottom: 50px;
-        text-align: center;
-    }
-
-    .logo-container img {
-        max-width: 250px;
-        height: auto;
-    }
-</style>
-
 <body>
-    <div class="main d-flex flex-column justify-content-center align-items-center">
-        <div class="login-box p-5 shadow">
-            <form action="" method="post">
-                <div class="logo-container">
-                    <img src="../image/logo_daikin.png" alt="Logo">
-                </div>
-                <div>
-                    <label for="username">Username</label>
-                    <input type="text" class="form-control" name="username" id="username">
-                </div>
-
-                <div>
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control" name="password" id="password">
-                </div>
-
-                <div>
-                    <button class="btn btn-success form-control mt-3" type="submit" name="loginbtn">Login</button>
-                </div>
-            </form>
-
-        </div>
-        <div class="mt-3" style= "width: 500px">
-            <?php 
-                if(isset($_POST['loginbtn'])){
-                    $username = htmlspecialchars($_POST['username']);
-                    $password = htmlspecialchars($_POST['password']);
-                    
-                    $query = mysqli_query($con, "SELECT * FROM user WHERE username='$username'");
-                    $countdata = mysqli_num_rows($query);
-                    $data = mysqli_fetch_array($query);
-
-                    if($countdata>0){
-                        if (password_verify($password, $data['password'])){
-                            $_SESSION['username'] = $data['username'];
-                            $_SESSION['login'] = true;
-                            header('location: ../adminpanel');
-                        }
-                        else{
-                            ?>
-                            <div class="alert alert-warning" role="alert">
-                            Password salah
+    <div class="container-fluid">
+        <div class="row min-vh-100 justify-content-center align-items-center">
+            <div class="col-sm-8 col-md-6 col-lg-4 ">
+                <div class="card shadow" style="border-radius: 15px">
+                    <div class="card-body p-4">
+                        <form action="" method="post">
+                            <div class="text-center mb-4">
+                                <img src="../image/logo_daikin.png" alt="Logo" class="img-fluid" style="max-width: 200px;">
                             </div>
-                            <?php    
-                        }
-                        
-                    }
-                    else{
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" class="form-control" name="username" id="username">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" name="password" id="password">
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-success" type="submit" name="loginbtn">Login</button>
+                            </div>
+                        </form>
+                        <?php 
+                            if(isset($_POST['loginbtn'])){
+                                $username = htmlspecialchars($_POST['username']);
+                                $password = htmlspecialchars($_POST['password']);
+                                
+                                $query = mysqli_query($con, "SELECT * FROM user WHERE username='$username'");
+                                $countdata = mysqli_num_rows($query);
+                                $data = mysqli_fetch_array($query);
+
+                                if($countdata>0){
+                                    if (password_verify($password, $data['password'])){
+                                        $_SESSION['username'] = $data['username'];
+                                        $_SESSION['login'] = true;
+                                        header('location: ../adminpanel');
+                                    }
+                                    else{
+                                        ?>
+                                        <div class="alert alert-warning mt-3" role="alert">
+                                            Password salah
+                                        </div>
+                                        <?php    
+                                    }
+                                    
+                                }
+                                else{
+                                    ?>
+                                    <div class="alert alert-warning mt-3" role="alert">
+                                        Akun tidak tersedia
+                                    </div>
+                                    <?php
+
+                                }
+
+                            }
                         ?>
-                        <div class="alert alert-warning" role="alert">
-                        Akun tidak tersedia
-                        </div>
-                        <?php
-
-                    }
-
-                }
-            ?>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
 </body>
 </html>
