@@ -1,5 +1,4 @@
-<footer class="w-full px-4 py-10 mx-auto mt-4 sm:px-6 lg:px-8 bg-slate-800">
-    <!-- Grid -->
+<footer class="w-full px-4 py-10 mx-auto sm:px-6 lg:px-8 bg-slate-800 dark:bg-slate-950">
     <div class="mb-10 text-center">
         <a class="flex-none text-xl font-semibold text-white dark:text-white dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#" aria-label="Brand">PT. Mellisa Lestari Sinergi</a>
     </div>
@@ -21,19 +20,19 @@
         <!-- Social Brands -->
         <div class="mt-3 space-x-2">
 
-            <a target="_blank" href="https://www.facebook.com/royallestari.id" class="inline-flex items-center justify-center w-12 h-12 text-center text-gray-500 transition rounded-full hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="#">
+            <a target="_blank" href="https://www.facebook.com/royallestari.id" class="inline-flex items-center justify-center w-12 h-12 text-center text-gray-500 transition rounded-full hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-blue-600" href="#">
                 <i class='fab fa-facebook' style='font-size:24px'></i>
             </a>
-            <a target="_blank" href="https://www.instagram.com/daikinishop_pekanbaru/" class="inline-flex items-center justify-center w-12 h-12 text-center text-gray-500 transition rounded-full hover:text-purple-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 focus:ring-offset-white dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="#">
+            <a target="_blank" href="https://www.instagram.com/daikinishop_pekanbaru/" class="inline-flex items-center justify-center w-12 h-12 text-center text-gray-500 transition rounded-full hover:text-purple-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 focus:ring-offset-white dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-purple-600" href="#">
                 <i class='fab fa-instagram' style='font-size:24px'></i>
             </a>
-            <a target="_blank" href="https://www.youtube.com/@royallestari" class="inline-flex items-center justify-center w-12 h-12 text-center text-gray-500 transition rounded-full hover:text-red-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 focus:ring-offset-white dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="#">
+            <a target="_blank" href="https://www.youtube.com/@royallestari" class="inline-flex items-center justify-center w-12 h-12 text-center text-gray-500 transition rounded-full hover:text-red-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 focus:ring-offset-white dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-red-600" href="#">
                 <i class='fab fa-youtube ' style='font-size:24px'></i>
             </a>
-            <a target="_blank" href="mailto:mellisalestarisinergi@gmail.com" class="inline-flex items-center justify-center w-12 h-12 text-center text-gray-500 transition rounded-full hover:text-gray-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-offset-2 focus:ring-offset-white dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="#">
+            <a target="_blank" href="mailto:mellisalestarisinergi@gmail.com" class="inline-flex items-center justify-center w-12 h-12 text-center text-gray-500 transition rounded-full hover:text-gray-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-offset-2 focus:ring-offset-white dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-600" href="#">
                 <i class='fas fa-envelope' style='font-size:24px'></i>
             </a>
-            <a target="_blank" href="https://wa.me/6282268864800" class="inline-flex items-center justify-center w-12 h-12 text-center text-gray-500 transition rounded-full hover:text-green-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 focus:ring-offset-white dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800" href="#">
+            <a target="_blank" href="https://wa.me/6282268864800" class="inline-flex items-center justify-center w-12 h-12 text-center text-gray-500 transition rounded-full hover:text-green-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 focus:ring-offset-white dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-green-600" href="#">
                 <i class='fab fa-whatsapp' style='font-size:24px'></i>
             </a>
         </div>
@@ -41,3 +40,14 @@
     </div>
     <!-- End Grid -->
 </footer>
+
+
+<!-- js untuk preline -->
+<script src="./node_modules/preline/dist/preline.js"></script>
+
+<!-- js untuk bootstrap -->
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="fontawesome/js/all.min.js"></script>
+
+<!-- js script custom sendiri -->
+<script src="./js/script.js"></script>

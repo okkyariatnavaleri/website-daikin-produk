@@ -31,14 +31,7 @@ $countData = mysqli_num_rows($queryProduk);
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daikin | Produk</title>
-    <link rel="icon" href="image/icon_daikin.png" type="png" size="16x16">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-tailwind.css">
+    <?php require "head.php" ?>
 </head>
 
 <body>
@@ -47,16 +40,16 @@ $countData = mysqli_num_rows($queryProduk);
     <!-- banner -->
     <div class="container-fluid banner-produk d-flex align-items-center">
         <div class="container">
-            <h1 class="text-white text-center">Produk</h1>
+            <h1 class="text-center text-white">Produk</h1>
         </div>
     </div>
 
     <!-- body -->
     <div class="container py-5">
         <div class="row">
-            <div class="col-lg-3 mb-5">
+            <div class="mb-5 col-lg-3">
                 <h3 class="mb-3">Kategori</h3>
-                <ul class="list-group shadow">
+                <ul class="shadow list-group">
                     <?php while ($kategori = mysqli_fetch_array($queryKategori)) { ?>
                         <li class="list-group-item">
                             <a class="no-decoration" href="produk.php?kategori=<?php echo $kategori['nama']; ?>">
@@ -67,12 +60,12 @@ $countData = mysqli_num_rows($queryProduk);
                 </ul>
             </div>
             <div class="col-lg-9">
-                <h3 class="text-center mb-3">Produk</h3>
+                <h3 class="mb-3 text-center">Produk</h3>
                 <div class="row">
                     <?php
                     if ($countData < 1) {
                     ?>
-                        <h4 class="text-center my-5">Produk yang anda cari tidak tersedia</h4>
+                        <h4 class="my-5 text-center">Produk yang anda cari tidak tersedia</h4>
                     <?php
                     }
                     ?>
@@ -94,15 +87,15 @@ $countData = mysqli_num_rows($queryProduk);
                         $truncatedDeskripsi = truncateDescription($produkDeskripsi, 70);
 
                     ?>
-                        <div class="col-md-4 mb-4">
-                            <div class="card h-100 shadow">
+                        <div class="mb-4 col-md-4">
+                            <div class="shadow card h-100">
                                 <div class="image-box">
                                     <img src="image/<?php echo $produk['foto']; ?>" alt="...">
                                 </div>
                                 <div class="card-body">
                                     <h4 class="card-title"><?php echo $produk['nama']; ?></h4>
                                     <p class="card-text text-truncate"><?php echo $truncatedDeskripsi; ?></p>
-                                    <a href="produk-detail.php?nama=<?php echo $produk['nama']; ?>" class="btn text-white">Lihat Detail</a>
+                                    <a href="produk-detail.php?nama=<?php echo $produk['nama']; ?>" class="text-white btn">Lihat Detail</a>
                                 </div>
                             </div>
                         </div>

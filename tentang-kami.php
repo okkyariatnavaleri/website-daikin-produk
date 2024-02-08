@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daikin | Tentang Kami</title>
-    <link rel ="icon" href="image/icon_daikin.png" type="png" size="16x16">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <?php require "head.php" ?>
 </head>
+
 <body>
     <?php require "navbar.php"; ?>
-    
+
     <!-- banner -->
     <div class="container-fluid banner-tentang-kami d-flex align-items-center">
         <div class="container">
-            <h1 class="text-white text-center">Tentang Kami</h1>
+            <h1 class="text-center text-white">Tentang Kami</h1>
         </div>
     </div>
 
     <!-- tentang kami -->
-    <div class="container-fluid py-5">
+    <div class="py-5 container-fluid">
         <div class="container text-center text-dark">
-            <p class="fs-5 mt-3">
+            <p class="mt-3 fs-5">
                 PT. Mellisa Lestari Sinergi telah
                 memegang bukti Sertifikat Dealer
                 Resmi Daikin sehingga telah dipercaya
@@ -31,7 +27,7 @@
                 <br>
                 <img src="image/sertifikat_daikin.png" class="img-fluid" alt="">
             </p>
-            <p class="fs-5 mt-3">
+            <p class="mt-3 fs-5">
                 PT. Mellisa Lestari Sinergi merupakan Perusahaan yang bergerak di
                 bidang pengadaan barang, dibangun secara resmi
                 berkekuatan hukum dan terdaftar bulan April Tahun 2020.
@@ -51,13 +47,13 @@
             <br><br>
 
             <h3>Visi</h3>
-            <p class="fs-5 mt-3">
+            <p class="mt-3 fs-5">
                 Membangun Perusahaan yang profesional dan terpercaya di
                 Indonesia dan Provinsi Riau khususnya.
-            </p> 
-            
+            </p>
+
             <h3>Misi</h3>
-            <p class="fs-5 mt-3">
+            <p class="mt-3 fs-5">
                 Menjadi Perusahaan dengan komitmen memberikan
                 pelayanan terbaik dan mengutamakan kepuasan pelanggan.
             </p>
@@ -67,8 +63,9 @@
 
     <!-- footer -->
     <?php require "footer.php"; ?>
-    
+
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="fontawesome/js/all.min.js"></script>
 </body>
+
 </html>
