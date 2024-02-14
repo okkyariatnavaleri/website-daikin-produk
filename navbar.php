@@ -21,7 +21,7 @@
         <div id="navbar-image-2" class="hidden overflow-hidden transition-all duration-300 hs-collapse basis-full grow sm:block">
             <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-end sm:mt-2 sm:ps-5">
                 <a class="font-medium <?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'text-blue-500' : 'text-slate-400'; ?> dark:focus:outline-none hover-underline-animation dark:focus:ring-1 dark:focus:ring-gray-600" href="index.php">Home</a>
-                <a class="font-medium <?php echo basename($_SERVER['PHP_SELF']) == 'produk.php' ? 'text-blue-500' : 'text-slate-400'; ?> dark:focus:outline-none hover-underline-animation dark:focus:ring-1 dark:focus:ring-gray-600" href="produk.php">Produk</a>
+                <a class="font-medium <?php echo (basename($_SERVER['PHP_SELF']) == 'produk.php' || basename($_SERVER['PHP_SELF']) == 'produk-detail.php') ? 'text-blue-500' : 'text-slate-400'; ?> dark:focus:outline-none hover-underline-animation dark:focus:ring-1 dark:focus:ring-gray-600" href="produk.php">Produk</a>
                 <a class="font-medium <?php echo basename($_SERVER['PHP_SELF']) == 'tentang-kami.php' ? 'text-blue-500' : 'text-slate-400'; ?> dark:focus:outline-none hover-underline-animation dark:focus:ring-1 dark:focus:ring-gray-600" href="tentang-kami.php">Tentang Kami</a>
 
                 <div class="flex">

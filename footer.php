@@ -45,6 +45,8 @@
 <!-- js untuk preline -->
 <script src="./node_modules/preline/dist/preline.js"></script>
 
+
+
 <!-- js untuk bootstrap -->
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="fontawesome/js/all.min.js"></script>

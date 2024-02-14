@@ -21,7 +21,7 @@ require "koneksi.php";
     <!-- Hero -->
     <div class="relative overflow-hidden dark:saturate-50">
         <div class=" mx-auto px-4 min-h-[700px] sm:px-6 lg:px-8 py-10 sm:py-24 bg-[url('../image/banner.jpg')] " style="background-size: cover;background-position: center;background-repeat: no-repeat;">
-            <div class="mt-32 text-center md:mt-20 animasi">
+            <div class="mt-32 text-center md:mt-20 ">
                 <h1 class="text-3xl font-bold sm:text-4xl text-slate-800 ">
                     Daikin Airconditioning Indonesia
                 </h1>
@@ -80,7 +80,7 @@ require "koneksi.php";
         </div>
         <div class="grid md:gap-12 sm:grid-cols-2 lg:grid-cols-4 ">
             <!-- Icon Block -->
-            <div class="flex flex-col justify-between h-64 animasi ">
+            <div class="flex flex-col justify-between h-64 ">
                 <div class="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-white">
                     <div class="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
                         <svg class="flex-shrink-0 w-6 h-6 text-blue-600 dark:text-blue-500" fill="#0284c7" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" stroke="#0284c7">
@@ -107,7 +107,7 @@ require "koneksi.php";
             <!-- End Icon Block -->
 
             <!-- Icon Block -->
-            <div class="flex flex-col justify-between h-64 animasi">
+            <div class="flex flex-col justify-between h-64 ">
                 <div class="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-white">
                     <div class="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
                         <svg class="flex-shrink-0 w-6 h-6 text-blue-600 dark:text-blue-500" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#3b82f6">
@@ -135,7 +135,7 @@ require "koneksi.php";
             <!-- End Icon Block -->
 
             <!-- Icon Block -->
-            <div class="flex flex-col justify-between h-64 animasi">
+            <div class="flex flex-col justify-between h-64 ">
                 <div class="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-white">
                     <div class="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
                         <svg class="flex-shrink-0 w-6 h-6 text-blue-600 dark:text-blue-500" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" fill="#3b82f6" stroke="#3b82f6">
@@ -158,7 +158,7 @@ require "koneksi.php";
             <!-- End Icon Block -->
 
             <!-- Icon Block -->
-            <div class="flex flex-col justify-between h-64 animasi">
+            <div class="flex flex-col justify-between h-64 ">
                 <div class="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl bg-white">
                     <div class="relative flex justify-center items-center w-12 h-12 rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
                         <svg class="flex-shrink-0 w-6 h-6 text-blue-600 dark:text-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -191,7 +191,7 @@ require "koneksi.php";
         <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 ">
             <!-- Card -->
             <div class="relative items-center justify-center overflow-hidden transition-shadow rounded-lg shadow cursor-pointer group hover:shadow-xl hover:shadow-black/30">
-                <div class="h-64 mx-auto sm:h-72 sm:w-96 w-80 animasi">
+                <div class="h-64 mx-auto sm:h-72 sm:w-96 w-80 ">
                     <img class="object-contain w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="./image/breeze_series.png" alt="" />
                 </div>
                 <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -205,7 +205,7 @@ require "koneksi.php";
 
             <!-- Card -->
             <div class="relative items-center justify-center overflow-hidden transition-shadow rounded-lg shadow cursor-pointer group hover:shadow-xl hover:shadow-black/30">
-                <div class="h-64 mx-auto sm:h-72 sm:w-96 w-80 animasi ">
+                <div class="h-64 mx-auto sm:h-72 sm:w-96 w-80 ">
                     <img class="object-contain w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="./image/ftv_series.png" alt="" />
                 </div>
                 <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -219,7 +219,7 @@ require "koneksi.php";
 
             <!-- Card -->
             <div class="relative items-center justify-center overflow-hidden transition-shadow rounded-lg shadow cursor-pointer group hover:shadow-xl hover:shadow-black/30">
-                <div class="h-64 mx-auto sm:h-72 sm:w-96 w-80 animasi ">
+                <div class="h-64 mx-auto sm:h-72 sm:w-96 w-80 ">
                     <img class="object-contain w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="./image/ftc_series.png" alt="" />
                 </div>
                 <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>

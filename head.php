@@ -31,7 +31,7 @@
  var pageTitle = "";
  var metaDescription = "";
  var pathName = window.location.pathname;
- if (pathName.includes("produk")) {
+ if (pathName.includes("produk" || "produk-detail")) {
   pageTitle = "Daikin | Produk";
   metaDescription = "Telusuri beragam produk Daikin terbaru untuk kebutuhan pendinginan dan pemanasan ruangan Anda. Dapatkan solusi yang efisien dan ramah lingkungan.";
  } else if (pathName.includes("tentang-kami")) {

@@ -12,17 +12,11 @@ $queryProdukTerkait = mysqli_query($con, "SELECT * FROM produk WHERE kategori_id
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daikin | Detail Produk</title>
-    <link rel="icon" href="image/icon_daikin.png" type="png" size="16x16">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <?php require "head.php"; ?>
 
 </head>
 
-<body>
+<body class="dark:bg-slate-900">
     <?php require "navbar.php"; ?>
 
     <!-- detail produk -->
@@ -32,14 +26,14 @@ $queryProdukTerkait = mysqli_query($con, "SELECT * FROM produk WHERE kategori_id
                 <div class="col-lg-5 detail-product-image">
                     <img src="image/<?php echo $produk['foto']; ?>" alt="">
                 </div>
-                <div class="col-lg-7 mt-5">
+                <div class="mt-5 col-lg-7 dark:text-white">
                     <h1><?php echo $produk['nama']; ?></h1>
                     <p class="fs-5">
                         <?php echo htmlspecialchars_decode($produk['deskripsi']); ?>
                     </p>
                 </div>
 
-                <div class="text-center mt-5 mb-5">
+                <div class="mt-5 mb-5 text-center dark:text-white ">
                     <h3 class="mb-3">Spesifikasi</h3>
                     <img src="image/<?php echo $produk['spesifikasi']; ?>" class="w-100" alt="">
                 </div>
@@ -48,15 +42,15 @@ $queryProdukTerkait = mysqli_query($con, "SELECT * FROM produk WHERE kategori_id
     </div>
 
     <!-- produk terkait -->
-    <div class="container-fluid py-5">
+    <div class="py-5 container-fluid">
         <div class="container">
-            <h2 class="text-center text-dark mb-5">Produk Terkait</h2>
+            <h2 class="mb-5 text-center dark:text-white">Produk Terkait</h2>
 
             <div class="row">
                 <?php while ($data = mysqli_fetch_array($queryProdukTerkait)) { ?>
-                    <div class="col-md-6 col-lg-3 mb-3">
+                    <div class="mb-3 col-md-6 col-lg-3">
                         <a href="produk-detail.php?nama=<?php echo $data['nama']; ?>">
-                            <img src="image/<?php echo $data['foto']; ?>" class="img-fluid img-thumbnail produk-terkait-image shadow" alt="">
+                            <img src="image/<?php echo $data['foto']; ?>" class="shadow img-fluid img-thumbnail produk-terkait-image" alt="">
                         </a>
                     </div>
                 <?php } ?>
@@ -66,9 +60,6 @@ $queryProdukTerkait = mysqli_query($con, "SELECT * FROM produk WHERE kategori_id
 
     <!-- footer -->
     <?php require "footer.php"; ?>
-
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="fontawesome/js/all.min.js"></script>
 </body>
 
 </html>
