@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "npx tailwindcss -i input.css -o css/style-tailwind.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "animate.css": "^4.1.1",
+    "bootstrap-show-password-toggle": "^1.4.1",
+    "preline": "^2.0.3",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
