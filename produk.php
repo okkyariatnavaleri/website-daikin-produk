@@ -53,7 +53,7 @@ $countData = mysqli_num_rows($queryProduk);
                 <ul class="space-y-1 rounded-md shadow-inner">
                     <?php while ($kategori = mysqli_fetch_array($queryKategori)) { ?>
                         <li class="px-4 py-2 transition duration-150 ease-in-out border border-slate-600 hover:border-transparent hover:text-slate-900 hover:bg-gray-600 dark:hover:bg-gray-600">
-                            <a class="font-semibold no-underline transition-all text-slate-900 dark:text-slate-200" href="produk.php?kategori=<?php echo $kategori['nama']; ?>">
+                            <a class="font-semibold no-underline transition-all text-slate-900 hover:text-slate-900 dark:text-slate-200" href="produk.php?kategori=<?php echo $kategori['nama']; ?>">
                                 <?php echo $kategori['nama']; ?>
                             </a>
                         </li>

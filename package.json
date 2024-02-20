@@ -11,6 +11,7 @@
   "dependencies": {
     "@tailwindcss/jit": "^0.1.18",
     "animate.css": "^4.1.1",
+    "bootstrap-show-password-toggle": "^1.4.1",
     "preline": "^2.0.3",
     "tailwindcss-animate": "^1.0.7"
   }
