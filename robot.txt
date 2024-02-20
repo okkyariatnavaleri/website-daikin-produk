@@ -1,0 +1,4 @@
+User-agent: *
+
+Disallow: /adminpanel/
+Sitemap: https://daikinpekanbaru.com/sitemap.xml
