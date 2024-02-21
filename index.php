@@ -192,13 +192,13 @@ require "koneksi.php";
             <!-- Card -->
             <div class="relative items-center justify-center overflow-hidden transition-shadow rounded-lg shadow cursor-pointer group hover:shadow-xl hover:shadow-black/30">
                 <div class="h-64 mx-auto sm:h-72 sm:w-96 w-80 ">
-                    <img class="object-contain w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="./image/breeze_series.png" alt="" />
+                    <img class="object-contain w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="./image/ftkq_series.png" alt="" />
                 </div>
                 <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                 <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                    <h1 class="text-3xl font-bold text-white font-dmserif">Breeze Series</h1>
-                    <p class="mb-3 text-lg italic text-white transition-opacity duration-300 opacity-0 group-hover:opacity-100">Keseimbangan Sempurna Efisiensi Energi, Kemudahan Penggunaan, dan Ramah Lingkungan. AC kompak, ringan, dan mudah dioperasikan dengan fitur-fitur terbaik.</p>
-                    <a href="produk.php?produk=BREEZE Series"><button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">Selengkapnya</button></a>
+                    <h1 class="text-3xl font-bold text-white font-dmserif">FTKQ Series</h1>
+                    <p class="mb-3 text-lg italic text-white transition-opacity duration-300 opacity-0 group-hover:opacity-100">Fitur Super PCB menjaga AC tetap beroperasi stabil dalam tegangan listrik yang tidak stabil, sementara Mode Low Watt membantu menghemat energi tanpa mengorbankan kinerja. Hemat, handal, dan nyaman.</p>
+                    <a href="produk.php?produk=FTKQ Series"><button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">Selengkapnya</button></a>
                 </div>
             </div>
             <!-- End Card -->
@@ -206,7 +206,7 @@ require "koneksi.php";
             <!-- Card -->
             <div class="relative items-center justify-center overflow-hidden transition-shadow rounded-lg shadow cursor-pointer group hover:shadow-xl hover:shadow-black/30">
                 <div class="h-64 mx-auto sm:h-72 sm:w-96 w-80 ">
-                    <img class="object-contain w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="./image/ftv_series.png" alt="" />
+                    <img class="object-contain w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="./image/ftkc_series.png" alt="" />
                 </div>
                 <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                 <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
@@ -220,7 +220,7 @@ require "koneksi.php";
             <!-- Card -->
             <div class="relative items-center justify-center overflow-hidden transition-shadow rounded-lg shadow cursor-pointer group hover:shadow-xl hover:shadow-black/30">
                 <div class="h-64 mx-auto sm:h-72 sm:w-96 w-80 ">
-                    <img class="object-contain w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="./image/ftc_series.png" alt="" />
+                    <img class="object-contain w-full h-full transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src="./image/ftkf_series.png" alt="" />
                 </div>
                 <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                 <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">

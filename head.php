@@ -47,6 +47,7 @@
  // Mengubah meta description
  document.getElementById("meta-description").setAttribute("content", metaDescription);
 </script>
+<script async src="https://web-analytics.ystudio.dev/script.js" data-website-id="e7288715-fb8d-40d1-9a2e-d0d5805f0d1d"></script>
 
 <style>
  /* Atur animasi untuk underline */
