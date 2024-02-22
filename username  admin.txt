@@ -1,2 +1,2 @@
 username : admin
-password : rahasia
+password : rahasia $2y$10$pRva3h6QbYsbLH7JGMJ.heuXNgMddkZA9K5odz3P1sPF.ox9BRTWC

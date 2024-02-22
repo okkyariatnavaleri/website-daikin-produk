@@ -197,7 +197,7 @@ require "koneksi.php";
                 <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                 <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                     <h1 class="text-3xl font-bold text-white font-dmserif">FTKQ Series</h1>
-                    <p class="mb-3 text-lg italic text-white transition-opacity duration-300 opacity-0 group-hover:opacity-100">Fitur Super PCB menjaga AC tetap beroperasi stabil dalam tegangan listrik yang tidak stabil, sementara Mode Low Watt membantu menghemat energi tanpa mengorbankan kinerja. Hemat, handal, dan nyaman.</p>
+                    <p class="mb-3 text-lg italic text-white transition-opacity duration-300 opacity-0 group-hover:opacity-100">Dengan Super PCB untuk operasi stabil di tegangan listrik yang tidak stabil. Mode Low Watt hemat energi tanpa mengorbankan kenyamanan.</p>
                     <a href="produk.php?produk=FTKQ Series"><button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">Selengkapnya</button></a>
                 </div>
             </div>
@@ -210,9 +210,9 @@ require "koneksi.php";
                 </div>
                 <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                 <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                    <h1 class="text-3xl font-bold text-white font-dmserif">FTV Series</h1>
-                    <p class="mb-3 text-lg italic text-white transition-opacity duration-300 opacity-0 group-hover:opacity-100">Pengalaman Pendinginan Terbaik yang Disesuaikan dengan Keseharian. Aktifkan Mode Sleep untuk Penyesuaian Suhu saat Tidur.</p>
-                    <a href="produk.php?produk=FTV Series"><button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">Selengkapnya</button></a>
+                    <h1 class="text-3xl font-bold text-white font-dmserif">FTKC Series</h1>
+                    <p class="mb-3 text-lg italic text-white transition-opacity duration-300 opacity-0 group-hover:opacity-100"> Performa tangguh, hemat energi. Dilengkapi mode low watt, econo, intelligent eye, PM 2.5 filter, dan smart Wi-Fi controller.</p>
+                    <a href="produk.php?produk=FTKC Series"><button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">Selengkapnya</button></a>
                 </div>
             </div>
             <!-- End Card -->
@@ -224,9 +224,9 @@ require "koneksi.php";
                 </div>
                 <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
                 <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                    <h1 class="text-3xl font-bold text-white font-dmserif">FTC Series</h1>
-                    <p class="mb-3 text-lg italic text-white transition-opacity duration-300 opacity-0 group-hover:opacity-100">Aliran Canggih dan Bertenaga untuk Kenyamanan Maksimal. Mulai dari 0.5 PK hingga 2.5 PK, unit ini ringkas dan modis.</p>
-                    <a href="produk.php?produk=FTC Series"><button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">Selengkapnya</button></a>
+                    <h1 class="text-3xl font-bold text-white font-dmserif">FTKF Series</h1>
+                    <p class="mb-3 text-lg italic text-white transition-opacity duration-300 opacity-0 group-hover:opacity-100">Mendinginkan cepat, hemat energi dengan mode Econo. Super PCB tahan lonjakan listrik. Mode hening, kebisingan hanya 21 dBA.</p>
+                    <a href="produk.php?produk=FTKF Series"><button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">Selengkapnya</button></a>
                 </div>
             </div>
             <!-- End Card -->
