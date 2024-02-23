@@ -52,11 +52,11 @@ $countData = mysqli_num_rows($queryProduk);
                 <h3 class="mb-3 text-slate-900 dark:text-slate-200">Kategori</h3>
                 <ul class="space-y-1 rounded-md shadow-inner">
                     <?php while ($kategori = mysqli_fetch_array($queryKategori)) { ?>
-                        <li class="px-4 py-2 transition duration-150 ease-in-out border border-slate-600 hover:border-transparent hover:text-slate-900 hover:bg-gray-600 dark:hover:bg-gray-600">
-                            <a class="font-semibold no-underline transition-all text-slate-900 hover:text-slate-900 dark:text-slate-200" href="produk.php?kategori=<?php echo $kategori['nama']; ?>">
+                        <a class="font-semibold no-underline transition-all text-slate-900 hover:text-slate-900 dark:text-slate-200"       href="produk.php?kategori=<?php echo $kategori['nama']; ?>">
+                            <li class="px-4 py-2 transition duration-150 ease-in-out border border-slate-600 hover:border-transparent   hover:text-slate-900 hover:bg-gray-600 dark:hover:bg-gray-600">
                                 <?php echo $kategori['nama']; ?>
-                            </a>
-                        </li>
+                            </li>
+                        </a>
                     <?php } ?>
                 </ul>
             </div>
@@ -99,11 +99,11 @@ $countData = mysqli_num_rows($queryProduk);
                                 <div class="card-body dark:bg-slate-900 dark:text-white">
                                     <h4 class="card-title"><?php echo $produk['nama']; ?></h4>
                                     <p class="card-text text-truncate"><?php echo $truncatedDeskripsi; ?></p>
-                                    <button type="button" class="inline-flex items-center px-4 py-3 text-sm font-semibold text-white bg-blue-600 border border-transparent rounded-lg mt-7 gap-x-2 hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
-                                        <a href="produk-detail.php?nama=<?php echo $produk['nama']; ?>" class="text-white">
+                                    <a href="produk-detail.php?nama=<?php echo $produk['nama']; ?>" class="card-body text-white">
+                                        <button type="button" class="inline-flex items-center px-4 py-3 text-sm font-semibold text-white bg-blue-600 border border-transparent rounded-lg mt-7 gap-x-2 hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
                                             Lihat Detail
-                                        </a>
-                                    </button>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
