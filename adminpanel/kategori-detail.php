@@ -27,7 +27,7 @@
             <form action="" method="post">
                 <div>
                     <label for="kategori">Kategori</label>
-                    <input type="text" name="kategori" id="kategori" class="form-control" autocomplete="off" value="<?php echo $data['nama']; ?>">
+                    <input type="text" name="kategori" id="kategori" class="form-control" autocomplete="off" value="<?php echo $data['nama']; ?>" required>
                 </div>
 
                 <div class="mt-5">
